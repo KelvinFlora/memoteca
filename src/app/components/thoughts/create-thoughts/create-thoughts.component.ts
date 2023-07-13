@@ -10,7 +10,7 @@ export class CreateThoughtsComponent {
     id: '1',
     content: 'Aprendendo Angular',
     author: 'Dev',
-    model: '',
+    model: 'modelo1',
   };
 
   constructor() {}
