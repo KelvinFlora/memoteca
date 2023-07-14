@@ -106,7 +106,9 @@
     </div>
     <div class="acoes">
       <button (click)="createThought()" class="botao">Salvar</button>
-      <button (click)="cancel()" class="botao">Cancelar</button>
+      <button (click)="cancel()" routerLink="/listThoughts" class="botao">
+        Cancelar
+      </button>
     </div>
   </form>
 </section>
