@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Thought } from '../thought';
 
 @Component({
   selector: 'app-list-thoughts',
@@ -6,16 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./list-thoughts.component.css'],
 })
 export class ListThoughtsComponent {
-  listThought = [
-    {
-      content: 'Passo informações para o componente filho',
-      author: 'Componente pai',
-      model: 'modelo3',
-    },
-    {
-      content: 'Minha propriedade é decorada com @Input()',
-      author: 'Componente filho',
-      model: 'modelo3',
-    },
-  ];
+  listThought: Thought[] = [];
 }

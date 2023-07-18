@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Thought } from '../thought';
 
 @Component({
   selector: 'app-create-thoughts',
@@ -6,8 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./create-thoughts.component.css'],
 })
 export class CreateThoughtsComponent {
-  thought = {
-    id: '1',
+  thought: Thought = {
+    id: 1,
     content: 'Aprendendo Angular',
     author: 'Dev',
     model: 'modelo1',
